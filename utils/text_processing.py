@@ -1,8 +1,7 @@
 import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-import nltk
-nltk.download('punkt')
+
 def preprocess_text(text):
     # Convert to lowercase
     text = text.lower()
